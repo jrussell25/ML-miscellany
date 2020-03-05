@@ -1,3 +1,6 @@
 *.ipynbcheckpoints
 *.png
 /saved/*
+
+*.h5
+
