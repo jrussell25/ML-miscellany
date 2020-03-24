@@ -1,4 +1,4 @@
-*.ipynbcheckpoints
+*.ipynb_checkpoints
 *.png
 /saved/*
 
