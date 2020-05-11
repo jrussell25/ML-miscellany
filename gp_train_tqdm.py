@@ -1,5 +1,6 @@
 import torch
 from tqdm import trange
+from pyro.infer import TraceMeanField_ELBO
 
 def train(gpmodule, optimizer=None, loss_fn=None, retain_graph=None, num_steps=1000,tqdm=True):
     """
